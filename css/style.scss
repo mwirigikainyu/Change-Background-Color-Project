@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.main-page {
+  min-height: 100vh;
+  background-color: darkgoldenrod;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  button {
+    padding: 20px 40px;
+    font-size: 20px;
+    font-family: monospace;
+    color: black;
+    border-radius: 10px;
+    background-color: white;
+    cursor: pointer;
+    outline: none;
+    border: 1px solid white;
+    &:hover {
+      transform: scaleX(2);
+    }
+    &:active,
+    &:focus {
+      outline: none;
+      border-radius: 10px;
+    }
+  }
+}
+
+.main-page .active {
+  background-color: darkgreen;
+}

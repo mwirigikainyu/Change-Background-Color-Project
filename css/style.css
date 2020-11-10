@@ -1,0 +1,38 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  background-color: darkgoldenrod;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body button {
+  padding: 20px 40px;
+  font-size: 20px;
+  font-family: monospace;
+  color: black;
+  border-radius: 10px;
+  background-color: white;
+  cursor: pointer;
+  outline: none;
+  border: 1px solid white;
+}
+
+body button:active, body button:focus {
+  outline: none;
+  border-radius: 10px;
+}
+/*# sourceMappingURL=style.css.map */
